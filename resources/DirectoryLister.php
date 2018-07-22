@@ -98,7 +98,7 @@ class DirectoryLister {
             $filename_no_ext = basename($directory);
 
             if ($directory == '.') {
-                $filename_no_ext = 'DOUBI Soft';
+                $filename_no_ext = 'Ariwori\'s cloud';
             }
 
             // We deliver a zip file
@@ -194,7 +194,7 @@ class DirectoryLister {
         // 静态设置主页路径
         $breadcrumbsArray[] = array(
             'link' => $this->_appURL,
-            'text' => 'DOUBI Soft'
+            'text' => 'Ariwori\'s cloud'
         );
 
         // Generate breadcrumbs

@@ -9,6 +9,9 @@
     // Restrict access to current directory
     ini_set('open_basedir', getcwd());
 
+    // php 系统时区
+    ini_set('date.timezone','Asia/Shanghai');
+
     // Return file hash
     if (isset($_GET['hash'])) {
 

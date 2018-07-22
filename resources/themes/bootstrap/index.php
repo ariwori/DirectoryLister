@@ -130,30 +130,5 @@ if(file_exists($md_file)){
 		?>
 		<!-- 说明 -->
         <?php file_exists('footer.php') ? include('footer.php') : include($lister->getThemePath(true) . "/default_footer.php"); ?>
-        <!-- div id="file-info-modal" class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">{{modal_header}}</h4>
-                    </div>
-                    <div class="modal-body">
-                        <table id="file-info" class="table table-bordered">
-                            <tbody>
-                                <tr>
-                                    <td class="table-title">MD5</td>
-                                    <td class="md5-hash">{{md5_sum}}</td>
-                                </tr>
-                                <tr>
-                                    <td class="table-title">SHA1</td>
-                                    <td class="sha1-hash">{{sha1_sum}}</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                </div>
-            </div>
-        </div -->
     </body>
 </html>

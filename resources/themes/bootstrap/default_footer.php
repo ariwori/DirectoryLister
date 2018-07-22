@@ -1,3 +1,9 @@
 <div class="footer">
-    <a href="https://doub.io/dbrj-3/" target="_blank">逗比魔改版</a> / <a href="https://github.com/ToyoDAdoubi/DirectoryLister" target="_blank">Github开源</a> · 基于 <a href="http://www.directorylister.com/" target="_blank">Directory Lister</a> © 2015-<?php echo date("Y")?>
+<span id="busuanzi_container_site_pv">
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次
+</span>
+<span id="busuanzi_container_site_uv">
+  本站访客数<span id="busuanzi_value_site_uv"></span>人次
+</span>
+<a href="https://blog.wqlin.com/" target="_blank">返回尘梦幽蒅</a> © 2017-<?php echo date("Y")?>
 </div>

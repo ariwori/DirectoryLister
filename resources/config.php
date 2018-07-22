@@ -21,7 +21,8 @@ return array(
         'header.php',
         'footer.php',
 		'*/README.*',
-		'README.*'
+        'README.*',
+        '.git/*'
     ),
 
     // Files that, if present in a directory, make the directory
