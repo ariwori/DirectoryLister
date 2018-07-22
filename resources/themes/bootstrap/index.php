@@ -19,7 +19,7 @@ if(file_exists($md_file)){
 ?>
 <html>
     <head>
-        <title>DOUBI Soft <?php echo $md_path_all; ?></title>
+        <title>尘梦幽蒅<?php echo $md_path_all; ?></title>
         <link rel="shortcut icon" href="resources/themes/bootstrap/img/folder.png">
         <link rel="stylesheet" href="resources/themes/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="resources/themes/bootstrap/css/font-awesome.min.css">
